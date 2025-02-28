@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome, Listener</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        a {
+            color: #3bc3ed;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, listener.</h1>
+    <p>I've pared down this site to just this page.</p>
+    <p>To listen to any past episodes, visit any podcast player or tune in with the player below.</p>
+    
+    <iframe title="Embed Player" style="border:none" 
+        src="https://play.libsyn.com/embed/destination/id/384095/height/412/theme/modern/size/large/thumbnail/yes/custom-color/3bc3ed/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+        height="412" width="100%" scrolling="no" allowfullscreen 
+        webkitallowfullscreen="true" mozallowfullscreen="true" 
+        oallowfullscreen="true" msallowfullscreen="true">
+    </iframe>
+    
+    <p>To contact Liam, please use email <span id="email"></span></p>
+    
+    <p>Thank you, love, and cheers!</p>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let user = "bowler.liam";
+            let domain = "gmail.com";
+            let emailLink = `<a href="mailto:${user}@${domain}">${user}@${domain}</a>`;
+            document.getElementById("email").innerHTML = emailLink;
+        });
+    </script>
+</body>
+</html>
