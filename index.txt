@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Body Awake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 24px;
+            text-align: center;
+            margin: 50px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        a {
+            color: #3b5998;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <p>Dear listener, whilst the show rests, so too does this site.  
+    Please <a href="mailto:bowler.liam@gmail.com">reach out via email</a> if you have anything to ask or say.</p>
+    
+    <p>Love, Liam</p>
+
+    <iframe title="Embed Player" style="border:none" 
+        src="https://play.libsyn.com/embed/destination/id/384095/height/412/theme/modern/size/large/thumbnail/yes/custom-color/3bc3ed/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+        height="412" width="100%" scrolling="no" allowfullscreen 
+        webkitallowfullscreen="true" mozallowfullscreen="true" 
+        oallowfullscreen="true" msallowfullscreen="true">
+    </iframe>
+</body>
+</html>
