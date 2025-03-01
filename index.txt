@@ -24,8 +24,8 @@
     </style>
 </head>
 <body>
-    <p>Dear listener, whilst the show rests, so too does this site.  
-    Please <a href="mailto:bowler.liam@gmail.com">reach out via email</a> if you have anything to ask or say.</p>
+    <p>Dear listener, whilst the show rests, so too does this site.</p>
+    <p>Please <a href="mailto:bowler.liam@gmail.com">reach out via email</a> if you have anything to ask or say.</p>
     
     <p>Love, Liam</p>
 
